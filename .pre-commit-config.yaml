@@ -29,3 +29,4 @@ repos:
         stages: [commit]
         entry: hooks/update-requirements.sh
         language: system
+        always_run: true
