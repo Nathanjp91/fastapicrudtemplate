@@ -23,3 +23,9 @@ repos:
         language: system
         pass_filenames: false
         always_run: true
+
+    -   id: requirements-updater
+        name: requirements-updater
+        stages: [commit]
+        entry: hooks/update-requirements.sh
+        language: system
